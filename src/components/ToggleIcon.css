@@ -1,0 +1,39 @@
+.toggle-icon {
+  position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .toggle-icon.dark {
+    
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .toggle-icon.light {
+    background-color: #fff;
+    color: #333;
+  } */
+  html .dark{
+    background-color: #333;
+  }
+  html .light{
+    background-color: #fff;
+  }
+  .dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light {
+    background-color: #fff;
+    color: #333;
+  }
+  

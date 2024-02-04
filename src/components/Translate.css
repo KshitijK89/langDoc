@@ -1,0 +1,156 @@
+.container {
+  position: absolute;
+  /* z-index: 1; */
+  max-width: 700px;
+  width: 80%;
+  padding: 30px;
+  background: #585858;
+  border-radius: 7px;
+  box-shadow:0 0 10px 5px #02f8f8;
+}
+.dropZoneOverlay, .FileUpload {
+
+  width: 200px;
+  height: 0px;
+}
+.dropZoneContainer{
+  position:relative;
+  /* border: 1px solid #c91dd5; */
+}
+
+.dropZoneOverlay {
+  /* border: 1px solid #c91dd5; */
+  position: absolute;
+  font-family: 'Manrope', sans-serif;
+  top: 0px;
+  /* font: ; */
+  text-align: center;
+  z-index: 1;
+  /* display: grid; */
+  place-items: center;
+  height: 100%;
+  color: black;
+  padding-left: 16px;
+}
+
+.FileUpload {
+  opacity: 0;
+  z-index: 1;
+}
+.rotated {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+.wrapper {
+  border-radius: 5px;
+  /* border: 3px solid black */
+  
+}
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.text-input .to-text {
+  border-radius: 0px;
+  border-left: 1px solid #ccc;
+}
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.text-input textarea::placeholder {
+  color: #b7b6b6;
+}
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+
+}
+.controls .row .icons {
+  width: 38%;
+ 
+}
+.controls .row .icons i {
+  width: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
+}
+.controls .row.from .icons {
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+}
+.controls .row.to .icons {
+  padding-left: 15px;
+  border-left: 1px solid #ccc;
+}
+.controls .row select {
+  color: #02f8f8;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: black;
+  padding-left: 5px;
+}
+.text-input textarea::-webkit-scrollbar {
+  width: 4px;
+}
+.controls .row select::-webkit-scrollbar {
+  width: 8px;
+}
+.text-input textarea::-webkit-scrollbar-track,
+.controls .row select::-webkit-scrollbar-track {
+  background: #fff;
+}
+.text-input textarea::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px;
+}
+.controls .row select::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+.controls .exchange {
+  color: #adadad;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+.controls i:active {
+  transform: scale(0.9);
+}
+.container button{
+  margin-left: 225px;
+  align-items: center;
+  width: 260px;
+  padding: 14px;
+  outline: none;
+  border: none;
+  color:black;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 17px;
+  border-radius: 100px;
+  background: #02f8f8;
+  font-family: 'Manrope', sans-serif;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
